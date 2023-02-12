@@ -1,0 +1,17 @@
+console.log("EXERCÍCIO DE JAVASCRIPT"+"\n")
+
+//Declaração de variáveis
+var array_compras=[];
+var contador = 0;
+array_compras[0]="Banana";
+array_compras[1]="Acai";
+array_compras[2]="Coco";
+array_compras[3]="Melancia";
+
+console.log("~Lista de Frutas");
+
+//Mostrar itens da lista de frutas
+do{
+    console.log("Fruta: "+array_compras[contador]);
+    contador = contador +1;
+}while(contador<array_compras.length)
